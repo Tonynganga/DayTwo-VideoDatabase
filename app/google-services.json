@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635473610705",
+    "project_id": "daytwo-videodatabase",
+    "storage_bucket": "daytwo-videodatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635473610705:android:247329f6e64c8ab5ecc2f0",
+        "android_client_info": {
+          "package_name": "com.tony.daytwo_videodatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635473610705-sd53o7vso5jgmrh5ficaaj8ghc09sbqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvgL-qdMkKzBKL69OXZfD48RVszWz6Vs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635473610705-sd53o7vso5jgmrh5ficaaj8ghc09sbqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
