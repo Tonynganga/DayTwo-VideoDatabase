@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int PICK_VIDEO_REQUEST = 1;
     private VideoView videoView;
     private EditText eName, eDesc;
-    private Button bUpload;
+    private Button bUpload, bShowvideo;
     private Uri videUri;
     private DatabaseReference mRef;
     private StorageReference storageReference;
@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         eName = findViewById(R.id.edt_name);
         eDesc = findViewById(R.id.edt_description);
         bUpload = findViewById(R.id.btn_upload);
+        bShowvideo = findViewById(R.id.btnShowVideo);
         mRef = FirebaseDatabase.getInstance().getReference("Videos");
         storageReference = FirebaseStorage.getInstance().getReference("Videos");
         mLoadingBar = new ProgressDialog(this);
@@ -65,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 UploadVideo();
+            }
+        });
+        bShowvideo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ShowVideoActivity.class);
+                startActivity(intent);
             }
         });
 

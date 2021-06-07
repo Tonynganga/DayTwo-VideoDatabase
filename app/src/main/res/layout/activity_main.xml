@@ -56,4 +56,13 @@
         app:layout_constraintEnd_toEndOf="@+id/edt_description"
         app:layout_constraintStart_toStartOf="@+id/edt_description"
         app:layout_constraintTop_toBottomOf="@+id/edt_description" />
+
+    <Button
+        android:id="@+id/btnShowVideo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Show Video"
+        app:layout_constraintEnd_toEndOf="@+id/btn_upload"
+        app:layout_constraintStart_toStartOf="@+id/btn_upload"
+        app:layout_constraintTop_toBottomOf="@+id/btn_upload" />
 </androidx.constraintlayout.widget.ConstraintLayout>
